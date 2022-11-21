@@ -1,23 +1,28 @@
 # google_analytics_capstone
 
 ## Description
+<!-- 
+1. Create a database in MySQL and upload all 12 files
+2. Use SQL to get the files you need for Excel charts and dashboard
+
+-->
 
 
 3. Table of Contents
 
 <!-- Insert Banner photo of dashboard -->
 
-4. Business Case
+Business Case
 
-5. Summarize Data Set
+Summarize Data Set
 
 <!-- Insert image of the database EER diagram -->
 
-6. Summarize Insights and Impact
+Summarize Insights and Impact
 
 ADD the questions and the answers
 
-7. Technical Details
+Technical Details
   This is the more in-depth longer version of the process
   
   A. Ask
@@ -32,5 +37,4 @@ ADD the questions and the answers
   
   F. Further Considerations
   
-  
- 8. Credits
+  Credits
