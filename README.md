@@ -1,20 +1,14 @@
 # Cyclistics Bike-Share Analysis
 
-Google Data Analytics Certificate Capstone Project
+This was my Capstone Project for the Google Data Analytics Certificate. It utilized MySQL to analyze 5.5 million bike-share records and used Microsoft Excel to build a data visualization dashboard.
 
 
-<!-- 
-1. Create a database in MySQL and upload all 12 files
-2. Use SQL to get the files you need for Excel charts and dashboard
--->
-
-
-### Table of Contents
+#### Table of Contents
 [Business Case](#business-case) | 
 [Data Description](#data-description) | 
 [Approach](#approach) | 
 [Results](#results) | 
-[Technical Details](#technical-details) | 
+[In-Depth Analysis](#in-depth-analysis) | 
 [Credits](#credits)
 
 <!-- Insert Banner photo of dashboard -->
@@ -30,21 +24,29 @@ Google Data Analytics Certificate Capstone Project
 ### Results
 
 <details>
-  <summary><h3>Technical Details</h3></summary>
+  <summary><h3>In-Depth Analysis</h3></summary>
   
   This is the more in-depth longer version of the process
   
-  ### A. Ask
+  #### Table of Contents
+  [Ask](#ask) | 
+  [Prepare](#prepare) | 
+  [Process](#process) | 
+  [Analyze](#analyze) | 
+  [Share](#share) | 
+  [Further Considerations](#further-considerations)
   
-  ### B. Prepare
+  ### Ask
   
-  ### C. Process
+  ### Prepare
   
-  ### D. Analyze
+  ### Process
   
-  ### E. Share
+  ### Analyze
   
-  ### F. Further Considerations
+  ### Share
+  
+  ### Further Considerations
   
   </details>
   
