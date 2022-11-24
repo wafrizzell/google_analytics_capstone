@@ -1,30 +1,36 @@
 # Cyclistics Bike-Share Analysis
 
-## Google Data Analytics Certificate Capstone Project
+Google Data Analytics Certificate Capstone Project
 
-Description
+
 <!-- 
 1. Create a database in MySQL and upload all 12 files
 2. Use SQL to get the files you need for Excel charts and dashboard
 -->
 
 
-Table of Contents
+### Table of Contents
+[Business Case](#business-case) | 
+[Data Description](#data-description) | 
+[Approach](#approach) | 
+[Results](#results) | 
+[Technical Details](#technical-details) | 
+[Credits](#credits)
 
 <!-- Insert Banner photo of dashboard -->
 
 ### Business Case
 
-### Summarize Data Set
+### Data Description
 
 <!-- Insert image of the database EER diagram -->
 
-### Summarize Insights and Impact
+### Approach
 
-ADD the questions and the answers
+### Results
 
 <details>
-  <summary><h2>Technical Details</h2></summary>
+  <summary><h3>Technical Details</h3></summary>
   
   This is the more in-depth longer version of the process
   
