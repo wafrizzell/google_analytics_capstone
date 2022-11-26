@@ -17,7 +17,7 @@ This was my Capstone Project for the Google Data Analytics Certificate. It utili
 
 ### Data Description
 
-<!-- Insert image of the database EER diagram -->
+
 
 ### Approach
 
