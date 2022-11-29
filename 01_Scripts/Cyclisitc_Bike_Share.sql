@@ -112,7 +112,7 @@ SELECT @@autocommit;
 
 -- Query to return bike-share rides as daily statistics
 SELECT
-	DATE(started_at),
+	DATE(started_at) AS date,
     CASE
 		WHEN WEEKDAY(started_at) = 0 THEN 'Mon'
         WHEN WEEKDAY(started_at) = 1 THEN 'Tue'
