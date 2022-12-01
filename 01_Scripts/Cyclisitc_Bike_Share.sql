@@ -144,6 +144,36 @@ ORDER BY
 	DATE(started_at)
 ;
 
+-- Query to return bike-share rides as day_of_week stats
+SELECT
+	CASE
+		WHEN WEEKDAY(started_at) = 0 THEN 'Mon'
+        WHEN WEEKDAY(started_at) = 1 THEN 'Tue'
+        WHEN WEEKDAY(started_at) = 2 THEN 'Wed'
+        WHEN WEEKDAY(started_at) = 3 THEN 'Thu'
+        WHEN WEEKDAY(started_at) = 4 THEN 'Fri'
+        WHEN WEEKDAY(started_at) = 5 THEN 'Sat'
+        WHEN WEEKDAY(started_at) = 6 THEN 'Sun'
+        ELSE 'Oops, double check logic'
+	END AS day_of_week,
+    AVG(TIMESTAMPDIFF(SECOND,started_at,ended_at))/60 AS avg_ride_length,
+	AVG(CASE WHEN member_casual = 'member' THEN TIMESTAMPDIFF(SECOND,started_at,ended_at) ELSE NULL END)/60 AS avg_ride_length_member,
+    AVG(CASE WHEN member_casual = 'casual' THEN TIMESTAMPDIFF(SECOND,started_at,ended_at) ELSE NULL END)/60 AS avg_ride_length_casual,
+    COUNT(CASE WHEN member_casual = 'member' THEN ride_id ELSE NULL END) AS member_rides,
+    COUNT(CASE WHEN member_casual = 'casual' THEN ride_id ELSE NULL END) AS casual_rides,
+    COUNT(CASE WHEN member_casual = 'member' AND rideable_type = 'electric_bike' THEN ride_id ELSE NULL END) AS electric_member,
+    COUNT(CASE WHEN member_casual = 'member' AND rideable_type = 'classic_bike' THEN ride_id ELSE NULL END) AS classic_member,
+    COUNT(CASE WHEN member_casual = 'member' AND rideable_type = 'docked_bike' THEN ride_id ELSE NULL END) AS docked_member,
+    COUNT(CASE WHEN member_casual = 'casual' AND rideable_type = 'electric_bike' THEN ride_id ELSE NULL END) AS electric_casual,
+    COUNT(CASE WHEN member_casual = 'casual' AND rideable_type = 'classic_bike' THEN ride_id ELSE NULL END) AS classic_casual,
+    COUNT(CASE WHEN member_casual = 'casual' AND rideable_type = 'docked_bike' THEN ride_id ELSE NULL END) AS docked_casual
+FROM rides
+GROUP BY
+	day_of_week
+ORDER BY
+	day_of_week
+;
+
 -- Query to return bike-share rides as weekly statistics
 SELECT
 	MIN(DATE(started_at)) AS week_of,
