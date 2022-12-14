@@ -39,73 +39,73 @@ This was my Capstone Project for the Google Data Analytics Certificate. It utili
   
   ### Ask
   
-  What is the problem you are trying to resolve?
+  **What is the problem you are trying to resolve?**
   
-  How can your insights drive business decisions?
+  **How can your insights drive business decisions?**
   
   ### Prepare
   
-  Where is your data located?
+  **Where is your data located?**
   
-  How is the data organized?
+  **How is the data organized?**
   
-  Are there issues with bias or credibility in this data? Does your data ROCCC?
+  **Are there issues with bias or credibility in this data? Does your data ROCCC?**
   
-  How are you addressing licensing, privacy, security, and accessibility?
+  **How are you addressing licensing, privacy, security, and accessibility?**
   
-  How did you verify the data's integrity?
+  **How did you verify the data's integrity?**
   
-  How does it help you answer the question?
+  **How does it help you answer the question?**
   
-  Are there any problems with the data?
+  **Are there any problems with the data?**
   
   ### Process
   
-  What tools are you using and why?
+  **What tools are you using and why?**
   
-  Have you ensured your data's integrity?
+  **Have you ensured your data's integrity?**
   
-  What steps have you taken to ensure your data is clean?
+  **What steps have you taken to ensure your data is clean?**
   
-  How can you verify that your data is clean and ready to analyze?
+  **How can you verify that your data is clean and ready to analyze?**
   
-  Have you documented your cleaning process so you can review and share those results?
+  **Have you documented your cleaning process so you can review and share those results?**
   
   ### Analyze
   
-  How should you organize your data to perform an analysis on it?
+  **How should you organize your data to perform an analysis on it?**
   
-  Has your data been properly formatted?
+  **Has your data been properly formatted?**
   
-  What surprises did you discover in your data?
+  **What surprises did you discover in your data?**
   
-  What trends or relationships did you find in your data?
+  **What trends or relationships did you find in your data?**
   
-  How will these insights help answer your business questions?
+  **How will these insights help answer your business questions?**
   
   ### Share
   
-  Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?
+  **Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?**
   
-  What story does your data tell?
+  **What story does your data tell?**
   
-  How do your findings relate to your original question?
+  **How do your findings relate to your original question?**
   
-  Who is your audience? What is the best way to communicate with them?
+  **Who is your audience? What is the best way to communicate with them?**
   
-  Can data visualization help you share your findings?
+  **Can data visualization help you share your findings?**
   
-  Is your presentation accessible to your audience?
+  **Is your presentation accessible to your audience?**
   
   ### Further Considerations
   
-  What is your final conclusion based on your analysis?
+  **What is your final conclusion based on your analysis?**
   
-  How could your team and business apply your insights?
+  **How could your team and business apply your insights?**
   
-  What next steps would you or your stakeholders take based on your findings?
+  **What next steps would you or your stakeholders take based on your findings?**
   
-  Is there additional data you could use to expand your findings?
+  **Is there additional data you could use to expand your findings?**
   
   </details>
   
